@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    height:70px;
+    z-index: 1;
+}
+
+#navlinks{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+#navlinks a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+#bgImg {
+    position: relative;
+    width: 97%;
+    height: 500px; 
+    margin: auto;
+
+}
+
+#bgImg img {
+    width: 100%;
+    height: 100%;
+}
+
+#bgImgTxt {
+    position: absolute;
+    bottom: 30px; /* move near bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 123, 189, 0.8); /* blue transparent overlay */
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+}
+
+#AboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin: 20px auto;
+}
+
+#AboutUs h2{
+    color: rgb(0, 208, 255);
+}
+
+#Section1{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Vision{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    max-width: 25%;
+    margin-right: 10px;
+}
+
+#Vision h2{
+    color: rgb(0, 208, 255);
+}
+
+#Mission{
+    align-items: center;
+    text-align: center;
+    background-color:  rgb(219, 219, 219);
+    max-width: 45%;
+    margin-left: 10px;
+}
+
+#Mission h2{
+     color: rgb(0, 208, 255);
+}
+
+
+#WhyUs{
+    text-align: center;
+    margin:50px auto;
+    background-color: #4c4c4c;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 40px;
+}
+#WhyUs h2,h3{
+    color: rgb(0, 208, 255);
+}
+
+#WhyUs p{
+    color: white;
+}
+
+#Reasons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 50px;
+    height: 600px;
+    
+}
+
+#ReasonsColumn1{
+    max-width: 30%;
+    padding: 20px;
+    height: 500px;
+
+}
+
+#ReasonsColumn2{
+    max-width: 30%;
+    padding: 20px;
+}
+
+#ReasonsColumn3{
+    max-width: 15%;
+}
+
+#ReasonsColumn3 img{
+    width: 400px;
+    height: 500px;
+}
+
+#services{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px auto;    
+}
+
+#ServiceImg{
+    background-color: #ececec;
+    max-width: 55%;
+    margin-left: 100px;
+}
+
+#ServiceImg img{
+    max-width: 80%;
+}
+#ServiceTxt{
+    max-width: 45%;
+    padding: 20px;
+}
+#services h2{
+    color: rgb(0, 208, 255);
+}
+
+
+#Training{
+    text-align: center;
+    margin:30px auto;
+    margin-bottom: 40px;
+
+}
+
+#TypeOfClasses{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 60%;
+    height: 500px;
+    padding: 40px;
+    
+}
+#TOCColumnL{
+    max-width: 35%;
+    margin-bottom: 50px;
+}
+
+#TOCColumnL div{
+    padding: 10px;
+}
+
+#TOCColumnR{
+    max-width: 35%;
+    margin-bottom: 50px;
+}
+
+#TOCColumnR div{
+    padding: 10px;
+}
+
+#Final{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    padding:40px;
+}
+
+#Final h2{
+    color: rgb(0, 208, 255);
+}
+
+#Final p{
+    margin-bottom: 30px;
+}
+#Final img{
+    max-width: 5%;
+    max-height: 5%;
+    margin: 10px;
+}
+
+#ListOfTools{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+#Final1{
+    max-width: 100%;
+
+}
+
+#Final2{
+    background-color: #2f2f2f;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+#Final2 p{
+    color: white;
+}
+#Final2 h2{
+    color: rgb(0, 208, 255);
+}
+
+#OIC{
+    max-width: 30%;
+    margin: 20px;
+}
+
+#Links{
+    max-width: 30%;
+    margin: 20px;
+}
+#Links a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    
+}
+#Links a:visited{
+    color: white;
+}
+
+#Links h3{
+    color: white;
+}
+
+#getInTouch{
+    max-width: 30%;
+    margin: 40px;
+}
+
+#getInTouch h3{
+    color: white;
+}
